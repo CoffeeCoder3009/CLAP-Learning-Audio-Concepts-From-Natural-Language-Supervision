@@ -22,5 +22,27 @@ CLAP (Contrastive Language-Audio Pretraining) learns audio representations direc
 
 ```bash
 git clone https://github.com/CoffeeCoder3009/CLAP-Learning-Audio-Concepts-From-Natural-Language-Supervision.git
-cd clap-benchmark
+
+```
+### 2. Install requirements
+
+```bash
 pip install -r requirements.txt
+```
+### 3. Run inference on a dataset
+
+```bash
+python esc50_clap_eval.py
+```
+
+
+---
+
+## 📊 Results on Datasets
+
+| Dataset       | Zero-Shot Accuracy |
+|---------------|---------------------|
+| ESC-50        | 82.10% 
+   
+
+---
