@@ -1,5 +1,4 @@
 # CLAP-Learning-Audio-Concepts-From-Natural-Language-Supervision
-# 🔊 CLAP: Learning Audio Concepts from Natural Language Supervision
 
 This repository contains an implementation and benchmarking framework for the **CLAP** model on various public audio datasets.
 
@@ -40,9 +39,11 @@ python esc50_clap_eval.py
 
 ## 📊 Results on Datasets
 
-| Dataset       | Zero-Shot Accuracy |
-|---------------|---------------------|
-| ESC-50        | 82.10% 
+| Dataset       | Zero-Shot Accuracy (ours) |  Zero-Shot Accuracy (actual) 
+|---------------|---------------------|---------------------|
+| ESC-50        | 82.10%              |  82.60%             |
+| US8K          | 74.62%              |  73.24%             |
+| FSD50K          | -              |  0.3024 (mAP)           |
    
 
 ---
