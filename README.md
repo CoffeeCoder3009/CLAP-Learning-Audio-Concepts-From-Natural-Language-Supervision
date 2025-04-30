@@ -6,7 +6,7 @@ CLAP (Contrastive Language-Audio Pretraining) learns audio representations direc
 
 ---
 
-## 📌 Paper Details
+## Paper Details
 
 - **Title:** CLAP: Learning Audio Concepts from Natural Language Supervision  
 - **Authors:** Yusong Wu, Ke Chen, Takuya Nishimura, et al.  
@@ -15,7 +15,7 @@ CLAP (Contrastive Language-Audio Pretraining) learns audio representations direc
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Clone the repo & install dependencies
 
@@ -31,13 +31,14 @@ pip install -r requirements.txt
 ### 3. Run inference on a dataset
 
 ```bash
-python esc50_clap_eval.py
+python <datasetname>_clap_eval.py
+# for example run python esc50_clap_eval.py
 ```
 
 
 ---
 
-## 📊 Results on Datasets
+## Results on Datasets
 
 | Dataset       | Zero-Shot Accuracy (ours) |  Zero-Shot Accuracy (actual) 
 |---------------|---------------------|---------------------|
@@ -47,3 +48,8 @@ python esc50_clap_eval.py
    
 
 ---
+## Contributors
+
+- [Purvanshi Nijhawan](https://github.com/CoffeeCoder3009)
+- [Asmi Srivastava](https://github.com/asmisriva)
+
